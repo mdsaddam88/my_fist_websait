@@ -1,0 +1,94 @@
+@font-face {
+    src: url(font/Andrea\ Bellarosa.ttf);
+    font-family: Andrea\ Bellarosa;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Andrea\ Bellarosa;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: Baskerville Old Face Vivaldi;
+    font-size: 18px;
+}
+
+p {
+    font-family: Lucida Handwriting;
+    color: darkgray;
+}
+
+section {
+    height: 500px;
+}
+
+.con_fist_top {
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.hab_with_a {
+    margin-top: 20px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+.hab_with_a img {
+    width: 100%;
+}
+
+.md_color {
+    color: darkorchid;
+}
+
+.orn_color {
+    color: orange;
+}
+
+.liner_gr_color {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.con_scend_B {
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.fg {
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(101, 88, 179), orange);
+    border-image-slice: 1;
+}
+
+.fh {
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid;
+    border-image: linear-gradient(red, rgb(120, 71, 255));
+    border-image-slice: 1;
+}
+
+.con_fotar {
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    font-family: Andrea\ Bellarosa;
+}
